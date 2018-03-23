@@ -25,7 +25,7 @@ module.exports = {
   ** Build configuration
   */
   plugins: [
-    { src: '~plugins/vue-element-ui', ssr: true }
+    { src: '~plugins/element-ui', ssr: true }
   ],
   build: {
     /*

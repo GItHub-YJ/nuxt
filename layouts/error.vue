@@ -1,31 +1,16 @@
 <template>
   <div>
-     <el-container>
-      <el-aside width="auto"><frameLeft :isCollapse="isCollapse" /></el-aside>
-      <el-container>
-        <el-header>
-          <el-button @click="isCollapse = !isCollapse">Collapse</el-button>
-        </el-header>
-        <el-main>
-          <nuxt/>
-        </el-main>
-      </el-container>
-    </el-container>
+    <h1>222</h1>
+    <nuxt/>
   </div>
 </template>
+
 <script>
-  import frameLeft from './../components/frame/frame-left'
   export default {
-    components: {
-      frameLeft
-    },
-    data () {
-      return {
-        isCollapse: false
-      }
-    }
-  }
+     layout: 'error'
+  }  
 </script>
+
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
